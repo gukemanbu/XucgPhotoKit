@@ -171,11 +171,14 @@ static CGSize CGSizeScale(CGSize size, CGFloat scale) {
 
 - (void)updateAssetCollections {
     NSArray *assetCollectionSubtypes = @[
-                                     @(PHAssetCollectionSubtypeSmartAlbumUserLibrary),
-                                     @(PHAssetCollectionSubtypeAlbumMyPhotoStream),
-                                     @(PHAssetCollectionSubtypeSmartAlbumPanoramas),
-                                     @(PHAssetCollectionSubtypeSmartAlbumBursts)
-                                     ];
+                                         @(PHAssetCollectionSubtypeSmartAlbumUserLibrary),
+                                         @(PHAssetCollectionSubtypeAlbumMyPhotoStream),
+                                         @(PHAssetCollectionSubtypeSmartAlbumFavorites),
+                                         @(PHAssetCollectionSubtypeSmartAlbumSelfPortraits),
+                                         @(PHAssetCollectionSubtypeSmartAlbumScreenshots),
+                                         @(PHAssetCollectionSubtypeSmartAlbumPanoramas),
+                                         @(PHAssetCollectionSubtypeSmartAlbumBursts)
+                                       ];
 
     NSMutableDictionary *smartAlbums = [NSMutableDictionary dictionaryWithCapacity:assetCollectionSubtypes.count];
     NSMutableArray *userAlbums = [NSMutableArray array];

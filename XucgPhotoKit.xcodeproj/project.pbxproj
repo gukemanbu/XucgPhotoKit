@@ -108,8 +108,8 @@
 			children = (
 				9E5262841D3F7C5300908D4A /* empty-album@2x.png */,
 				9E52627B1D3F7C5300908D4A /* Album */,
-				9E5262811D3F7C5300908D4A /* Crop */,
 				9E5262851D3F7C5300908D4A /* Photos */,
+				9E5262811D3F7C5300908D4A /* Crop */,
 			);
 			path = XucgPhotoKit;
 			sourceTree = "<group>";
